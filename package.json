@@ -15,6 +15,10 @@
     "serve-favicon": "~2.2.0"
   },
   "devDependencies": {
-    "gulp": "^3.8.11"
+    "gulp": "^3.8.11",
+    "gulp-minify-html": "^1.0.2",
+    "gulp-minify-inline": "^0.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-vulcanize": "^5.0.0"
   }
 }
