@@ -1,0 +1,22 @@
+{
+  "name": "polymer-express-boilerplate",
+  "version": "0.1.0",
+  "authors": [
+    "Josh Crowther <jshcrowthe@gmail.com>"
+  ],
+  "description": "A basic boilerplate for Express applications using Polymer.js",
+  "main": "app.js",
+  "keywords": [
+    "Polymer",
+    "WebComponents"
+  ],
+  "license": "MIT",
+  "homepage": "jcrowther.io",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
