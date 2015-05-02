@@ -1,5 +1,9 @@
 extends layout
 
 block content
+  link(rel='import', href='/html/x-app.min.html')
   h1= title
   p Welcome to #{title}
+  x-app
+    h3 This is a thing!
+    p It really is!
