@@ -2,8 +2,9 @@ extends layout
 
 block content
   link(rel='import', href='/html/x-app.min.html')
-  h1= title
-  p Welcome to #{title}
-  x-app
-    h3 This is a thing!
-    p It really is!
+  x-header
+    h1 x-header: #{title}
+  div
+    p Main content
+  x-footer
+    p x-footer: #{title}
